@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="zh"><head>
+<meta charset="utf-8">
+	<!-- bootstrap css --><!--===lm new add===-->
+ <!--    <link rel="stylesheet" href="css/bootstrap.min.css">-->
+	<!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+	<!-- main style-->
+	  <link rel="stylesheet" href="css/login.css">
+<title>中国古建筑</title>
+	<style>
+		.containerAndbackgroundPicture{
+			position: relative;
+			width: 100%;
+			height: 100%;
+			background-image:url(img/background.jpg);
+			background-position: top;
+		}/*整个页面主要会用到的背景*/
+		.picturestitle1{text-align: center;
+						margin-top: 45px}/*插入的该网页主题的标题图片:城市建筑，设置为居中*/
+		/*.titlePicture{text-align: center}*//*疑似重复上一定义*/
+		a:hover,a:active
+			{color:#2D54DD;
+			background-color:antiquewhite;}
+		.content{}
+		
+	</style>
+</head>
+<!--====================head部分END====================-->
+<body>
+	<div class="containerAndbackgroundPicture">
+	   <main><!--====================网页将涉及到的内容START====================-->
+	  	 <header class="briefIntroduction"><!--页眉START-->
+			
+			<form method="get" action="https://home.firefoxchina.cn/">
+				<input required type="search" style="margin-left: 20px">
+				<input value="search" type="button">
+
+				<input required type="text" style="margin-left: 20px">
+				<a href="login.html">
+				<input value="登录" type="button"><!--解决不了这个问题：元素input不能作为a元素的后代出现-->
+				</a>
+			</form>
+			 
+			 
+	  	 </header>
+		   
+<!--====================页眉END====================-->
+	  <!--导航栏START-->
+		   
+		    <nav class="navigationBar">	
+				<ul>
+				<li class="navigationCharacters"><a href="index.html" class="aText-derection">首页</a></li>
+				<li class="navigationCharacters"><a href="minjujianzhu/minjujianzhu.html" class="aText-derection">民居建筑</a></li>
+				<li class="navigationCharacters"><a href="gongdianjianzhu/gongdianjianzhu.html" class="aText-derection">宫殿建筑</a></li>
+				<li class="navigationCharacters"><a href="tanmiaojianzhu/tanmiaojianzhu.html" class="aText-derection">坛庙建筑</a></li>
+				<li class="navigationCharacters"><a href="zongjiaojianzhu/zongjiaojianzhu.html" class="aText-derection">宗教建筑</a></li>
+				<li class="navigationCharacters"><a href="yuanlinjianzhu/yuanlinjianzhu.html" class="aText-derection">园林建筑</a></li>
+				<li class="navigationCharacters"><a href="lingmujianzhu/lingmujianzhu.html" class="aText-derection">陵墓建筑</a></li>
+				<li class="navigationCharacters"><a href="chengshijianzhu/chengshijianzhu.html" class="aText-derection">城市建筑</a></li>
+				<li class="navigationCharacters"><a href="sheshijianzhu/sheshijianzhu.html" class="aText-derection">设施型建筑</a></li>
+				<li class="navigationCharacters"><a href="qitajianzhu/qitajianzhu.html" class="aText-derection">其他建筑</a></li>
+				</ul>
+			</nav> 
+		   
+<!--====================页眉和导航栏END====================-->
+<!--插入该网页主题的标题图片:城市建筑START-->
+	<!--<div class="picturestitle1">
+		<a id="首页">
+		<img src="img/title.png" alt="中国古建筑之城市分类">
+		</a>
+	</div>	-->
+<!--====================页眉、导航栏、主题标题图片插入及制作END====================-->   		
+<!--=========登录START========-->
+		
+    	<div class="content">
+			<!--<div class="content-inside">
+            <div class="bgDiv">-->
+                <div class="login">
+					<img class="logoImg" alt="yummy" src="img/logo.jpg"/><!--上面图片-->
+                    <div class="username">
+                        <!--<img class="userImg" src="img/figure.ico"/>-->
+						<!--图片显示大小有问题，下同-->
+                        <input class="userInp" type="text" placeholder="请输入用户名"/>
+                    </div>
+                    <div class="pwd">
+                        <!--<img class="pwdImg" src="img/password.ico"/>-->
+                        <input class="pwdInp" type="password" id="password" name="password" placeholder="请输入密码"/>
+                    </div>
+                    <div class="forgetPwd">
+                        <a class="forgetLink" href="#" target="_blank">忘记密码 / 注册</a>
+                    </div>
+						<input class="btn" type="submit" value="登录">
+                    <!--<button class="btn">登录</button>--><!--重复多余了-->
+                </div>
+          <!--  </div>
+        	</div>-->
+		</div>
+<!--=========登录END========-->
+   
+		   
+	
+      
+	<footer><!--页脚START--> 
+		<address>
+			<p class="footerBox">
+					Post by:C/L/L<br>
+				<a href="mailto:1072660940@qq.com" class="email" title="邮箱地址">联系我们:1072660940@qq.com</a><br/>
+				<a href="#top">点击回到顶部</a>
+			</p>	
+		</address>
+	</footer>
+<!--====================页脚END====================-->
+		</main>	
+		</div>
+</body>
+</html>

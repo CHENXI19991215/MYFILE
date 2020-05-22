@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+/*	    .container{width: 1920px;
+				     color:#CECECE;
+				     margin-top: auto}疑似重复定义背景图和div*/
+		.containerAndbackgroundPicture{
+			position: relative;
+			width: 100%;
+			height: 100%;
+			background-image:url(img/background.jpg);
+			background-position: top;
+		}/*整个页面主要会用到的背景*/
+		.picturestitle1{text-align: center;
+						margin-top: 45px}/*插入的该网页主题的标题图片:城市建筑，设置为居中*/
+		/*.titlePicture{text-align: center}*//*疑似重复上一定义*/
+		.navigationBar{
+			background: #615F5F;
+			text-align: center;
+			width: 1500px;
+			height: 50px;
+			position: fixed;
+			text-decoration: none;
+			color: #FFFFFF;
+			top: 0;
+			margin-top: 30px;
+		    position: absolute;
+		    z-index: 999;}/*导航栏div定义*/
+		.navigationCharacters{	list-style:none;
+							 	margin-bottom: 15px;
+			   				 	margin-top: 15px;
+							 	margin-left: 65px;
+						      	margin-right: 10px;
+							  	padding: 0px;
+							  	color: #FFFFFF;
+							  	float: left;
+								text-decoration: none}/*导航栏内文字属性*/
+		.aText-derection{	text-decoration: none;
+							color: #FFFFFF;}
+	  /*  .briefIntroduction{color: #000000;
+						   text-align: left}*//*疑似重复引入文（及article）的文字属性*/				   
+		
+		.horizontalRule{width: 100%;color: aliceblue}/*分割线属性*/
+
+		.footerBox{margin-top: 500px;
+				   text-align: right;
+				   color: #615D5D}
+		.footerHeading{text-align: right;
+				  	   color: #615D5D}
+		.titlepage{margin-top: 100px}
+		.a{color: #FFFFFF}/*导航栏超链接颜色*/
+		
+		* {
+				padding: 0;
+				margin: 0
+				}
+			a {
+				text-decoration: none;
+			}
+			li {
+				list-style: none;
+			}
+			body {
+				background-image: url("img/background.jpg");
+			}
+			/*===Start 登录表格===*/
+				.bgDiv {
+					width: 547px;
+					height: 403px;
+					/*border-top:1px solid rgba(0,0,0,0);*/
+					overflow: hidden;
+				}
+				.login {
+					width: 422px;
+					height: 420px;
+					background: #fff;
+					margin-top: 34px;
+					margin-left: 50px;
+					position: absolute;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					left: 0;
+					margin: auto;
+				}
+				.logoImg {/*logo图大小位置*/
+					width: 150px;
+					height: 100px;
+					margin-top: 32px;
+					margin-left: 140px;
+					margin-bottom: 8px;
+				}
+				.username,
+				.pwd,
+				.forgetPwd {/*表格大小位置*/
+					width: 366px;
+					height: 60px;
+					border-bottom: 1px solid #efefef;
+					margin: 0 28px;
+					line-height:60px;
+				}
+				/*.userImg,
+				.pwdImg {无效 已注释
+					margin-top: 18px;
+					float: left;
+				}*/
+				.userInp,
+				.pwdInp {
+					width: 320px;
+					height: 25px;
+					margin-top: 18px;
+					border: none;
+					outline: none;
+					margin-left: 20px;
+				}
+				.forgetPwd {
+					border: none;
+					line-height: 58px;
+					color: #3e82bf;
+					font-size: 16px;
+				}
+				.forgetLink {
+					/*margin-top:-2px;*/
+					padding-left: 5px;
+				}
+				.btn {
+					width: 364px;
+					height: 40px;
+					background: #4892ff;
+					border: 1px solid #326dcc;
+					color: #fff;
+					font-size: 16px;
+					margin-left: 30px;
+				}
+			/*==End 登录表格==*/
+
